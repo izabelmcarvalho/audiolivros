@@ -1,0 +1,70 @@
+body {
+  background-image: url(./assets/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.rounded-box {
+  background-color: rgba(109, 109, 109, 0.5);
+  border-radius: 12px;
+  padding: 30px;
+  backdrop-filter: blur(10px); 
+}
+
+#capa {
+  max-width: 90%; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.4rem;
+}
+
+#nome-livro {
+  font-size: 1.1rem;
+}
+
+#anterior, #proximo {
+  font-size: 3rem;
+}
+
+#play-pause {
+  font-size: 4rem;
+}
+
+#container-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

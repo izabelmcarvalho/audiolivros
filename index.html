@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Audiolivros</title>
+</head>
+<body>
+    <div class="background-image">
+        <div class="container-aplicativo">
+            <div class="rounded-box">
+                <img id='capa' alt="Capa do livro." src="./assets/images/dom-casmurro.png"></img>
+                <audio id='audio-capitulo' src="./assets/books/dom-casmurro/1.mp3"></audio>
+                <div id="informacoes-faixa">
+                    <div id="capitulo">Capítulo 1</div>
+                    <div id="nome-livro">Dom Casmurro</div>
+                </div>
+                <div id="container-botoes">
+                    <button id="anterior" class="bi bi-skip-start-fill"></button>
+                    <button id="play-pause" class="bi bi-play-circle-fill"></button>
+                    <button id="proximo" class="bi bi-skip-end-fill"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
